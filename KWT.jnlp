@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" 
+        codebase="http://2k16-server:9001/forms/java"
+        href="KWT.jnlp">
+    <information>
+        <title>KHS Windows Tool</title>
+        <vendor>khsghafri</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="KWT_v2.0.jar" main="true" />
+
+    </resources>
+    <application-desc
+         name="KHS Windows Tool"
+         main-class="cmd.Main">
+     </application-desc>
+     <update check="background"/>
+</jnlp>
